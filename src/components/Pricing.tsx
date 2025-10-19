@@ -51,7 +51,7 @@ export const Pricing = () => {
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span>10,000+ printable worksheets across 20+ skill categories</span>
+                  <span>10,000+ printable worksheets across 200+ skill categories</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
