@@ -7,7 +7,7 @@ const comparisonFeatures = [
   { feature: "Worksheets Count", others: "200–500", brightSprout: "10,000+" },
   { feature: "Updates", others: "No", brightSprout: "Lifetime Free" },
   { feature: "Price", others: "₹1,999+", brightSprout: "₹499 One-Time" },
-  { feature: "Skill Variety", others: "Limited", brightSprout: "20+ Categories" },
+  { feature: "Skill Variety", others: "Limited", brightSprout: "200+ Categories" },
   { feature: "Designed by Educators", others: "No", brightSprout: "Yes" },
   { feature: "Screen-Free", others: "Mixed", brightSprout: "100% Screen-Free" }
 ];
