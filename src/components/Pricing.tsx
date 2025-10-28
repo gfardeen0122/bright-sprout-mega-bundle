@@ -95,7 +95,7 @@ export const Pricing = () => {
 
               <div className="text-center space-y-2 pt-4">
                 <p className="text-sm font-semibold text-destructive">
-                  🔥 Only 200 copies left at this launch price!
+                  🔥 Only 200 copies left at this price!
                 </p>
                 <p className="text-sm text-muted-foreground">
                   Join 9,500+ happy parents and teachers
