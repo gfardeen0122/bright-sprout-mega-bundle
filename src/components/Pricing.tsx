@@ -73,7 +73,7 @@ export const Pricing = () => {
 
               <Button 
                 size="lg" 
-                className="w-full bg-gradient-to-r from-primary to-primary/90 hover:shadow-[0_0_40px_hsl(var(--primary)/0.3)] transition-all duration-300 text-lg py-6"
+                className="w-full bg-gradient-to-r from-primary to-primary/90 hover:shadow-[0_0_40px_hsl(var(--primary)/0.3)] transition-all duration-300 text-sm sm:text-base md:text-lg py-6"
               >
                 🔥 Get Lifetime Access @ ₹499 Now
               </Button>
