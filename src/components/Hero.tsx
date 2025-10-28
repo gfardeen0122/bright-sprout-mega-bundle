@@ -52,6 +52,11 @@ export const Hero = () => {
               </Button>
             </div>
 
+            {/* Urgency Text */}
+            <p className="text-sm font-semibold text-red-600 text-center lg:text-left">
+              🔥 Only 200 copies left at this price!
+            </p>
+
             {/* Star Rating */}
             <div className="flex items-center gap-2 justify-center lg:justify-start">
               <div className="flex gap-1">
