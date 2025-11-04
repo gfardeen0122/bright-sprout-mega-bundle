@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pixelpur/bright-sprout.pixelpursuit.shop/
+    - /bin/cp -R dist/* $DEPLOYPATH
