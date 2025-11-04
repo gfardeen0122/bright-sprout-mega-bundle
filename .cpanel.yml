@@ -1,4 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/pixelpur/bright-sprout-mega-bundle/
+    - npm install
+    - npm run build
+    - export DEPLOYPATH=/home/pixelpur/bright-sprout.pixelpursuit.shop/
     - /bin/cp -R dist/* $DEPLOYPATH
