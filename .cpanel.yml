@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/pixelpur/public_html/bright-sprout-mega-bundle/
+    - export DEPLOYPATH=/home/pixelpur/bright-sprout-mega-bundle/
     - /bin/cp -R dist/* $DEPLOYPATH
