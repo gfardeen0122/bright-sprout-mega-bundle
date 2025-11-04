@@ -9,5 +9,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "./", // <-- crucial for cPanel static hosting
+  base: "./", // 👈 Crucial for cPanel hosting
 });
