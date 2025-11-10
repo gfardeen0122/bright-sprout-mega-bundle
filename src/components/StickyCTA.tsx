@@ -28,13 +28,16 @@ export const StickyCTA = () => {
             <p className="font-bold text-lg">Limited Time: ₹499 Only!</p>
             <p className="text-sm text-muted-foreground">10,000+ Worksheets • Lifetime Access</p>
           </div>
-          <Button 
-            size="lg" 
-            className="bg-gradient-to-r from-primary to-primary/90 hover:shadow-[0_0_40px_hsl(var(--primary)/0.3)] transition-all duration-300 whitespace-nowrap"
-            onClick={scrollToPricing}
-          >
-            ✅ Get Lifetime Access @ ₹499 Now
-          </Button>
+          <div className="flex flex-col items-center sm:items-end gap-2">
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-primary to-primary/90 hover:shadow-[0_0_40px_hsl(var(--primary)/0.3)] transition-all duration-300 whitespace-nowrap"
+              onClick={scrollToPricing}
+            >
+              ✅ Get Lifetime Access @ ₹499 Now
+            </Button>
+            <p className="text-xs text-muted-foreground">🔥 Only 200 copies left at this price!</p>
+          </div>
         </div>
       </div>
     </div>
