@@ -74,8 +74,11 @@ export const Pricing = () => {
               <Button 
                 size="lg" 
                 className="w-full bg-gradient-to-r from-primary to-primary/90 hover:shadow-[0_0_40px_hsl(var(--primary)/0.3)] transition-all duration-300 text-sm sm:text-base md:text-lg py-6"
+                asChild
               >
-                🔥 Get Lifetime Access @ ₹499 Now
+                <a href="https://superprofile.bio/vp/10k-kids-worksheet-bundle" target="_blank" rel="noopener noreferrer">
+                  🔥 Get Lifetime Access @ ₹499 Now
+                </a>
               </Button>
 
               <div className="flex flex-wrap justify-center gap-4 pt-4 border-t border-border">

@@ -46,9 +46,11 @@ export const Hero = () => {
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-primary to-primary/90 hover:shadow-[0_0_40px_hsl(var(--primary)/0.3)] transition-all duration-300 text-lg px-8 py-6"
-                onClick={scrollToPricing}
+                asChild
               >
-                🔥 Get Lifetime Access @ ₹499
+                <a href="https://superprofile.bio/vp/10k-kids-worksheet-bundle" target="_blank" rel="noopener noreferrer">
+                  🔥 Get Lifetime Access @ ₹499
+                </a>
               </Button>
             </div>
 

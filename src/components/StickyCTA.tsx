@@ -32,9 +32,11 @@ export const StickyCTA = () => {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-primary to-primary/90 hover:shadow-[0_0_40px_hsl(var(--primary)/0.3)] transition-all duration-300 whitespace-nowrap"
-              onClick={scrollToPricing}
+              asChild
             >
-              ✅ Get Lifetime Access @ ₹499 Now
+              <a href="https://superprofile.bio/vp/10k-kids-worksheet-bundle" target="_blank" rel="noopener noreferrer">
+                ✅ Get Lifetime Access @ ₹499 Now
+              </a>
             </Button>
             <p className="text-xs text-red-600 dark:text-red-500 font-semibold">🔥 Only 200 copies left at this price!</p>
           </div>
