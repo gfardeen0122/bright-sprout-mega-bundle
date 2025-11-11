@@ -30,10 +30,10 @@ export const Footer = () => {
               Have questions? We're here to help!
             </p>
             <a 
-              href="mailto:solutions@pixelpursuit.shop" 
+              href="mailto:contact@pixelpursuit.shop" 
               className="text-sm text-primary hover:underline"
             >
-              solutions@pixelpursuit.shop
+              contact@pixelpursuit.shop
             </a>
           </div>
         </div>
