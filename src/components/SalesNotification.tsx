@@ -104,13 +104,18 @@ export const SalesNotification = () => {
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
       }`}
       style={{
-        bottom: window.innerWidth < 768 ? 'calc(100px + 1rem)' : 'calc(90px + 1rem)',
+        bottom: '90px',
       }}
     >
-      <div className="bg-card border border-border rounded-xl shadow-lg px-4 py-3 max-w-sm backdrop-blur-sm">
+      <div className="bg-card border border-border rounded-xl md:rounded-xl shadow-lg px-4 py-3 md:px-4 md:py-3 max-w-sm w-[90%] md:w-auto backdrop-blur-sm"
+        style={{
+          padding: window.innerWidth <= 600 ? '12px 16px' : undefined,
+          borderRadius: window.innerWidth <= 600 ? '12px' : undefined,
+        }}
+      >
         <div className="flex items-center gap-3">
-          <span className="text-xl flex-shrink-0">🟢</span>
-          <p className="text-sm text-foreground">
+          <span className="flex-shrink-0" style={{ fontSize: window.innerWidth <= 600 ? '16px' : '20px' }}>🟢</span>
+          <p className="text-foreground" style={{ fontSize: window.innerWidth <= 600 ? '15px' : '14px' }}>
             <span className="font-medium">{currentNotification.name}</span> from{" "}
             <span className="font-medium">{currentNotification.city}</span> bought this{" "}
             <span className="text-muted-foreground">{currentNotification.timeAgo}</span>
