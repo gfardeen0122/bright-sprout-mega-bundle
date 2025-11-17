@@ -49,7 +49,7 @@ export const Hero = () => {
                 asChild
               >
                 <a href="https://superprofile.bio/vp/10k-kids-worksheet-bundle" target="_blank" rel="noopener noreferrer">
-                  🔥 Get Lifetime Access @ ₹499
+                  🔥 Get Lifetime Access @ ₹199
                 </a>
               </Button>
             </div>

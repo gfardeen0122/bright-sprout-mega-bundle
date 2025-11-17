@@ -5,6 +5,7 @@ import { Benefits } from "@/components/Benefits";
 import { FAQ } from "@/components/FAQ";
 import { Pricing } from "@/components/Pricing";
 import { StickyCTA } from "@/components/StickyCTA";
+import { SalesNotification } from "@/components/SalesNotification";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
@@ -18,6 +19,7 @@ const Index = () => {
       <FAQ />
       <Footer />
       <StickyCTA />
+      <SalesNotification />
     </div>
   );
 };
