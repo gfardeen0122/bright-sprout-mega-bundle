@@ -25,7 +25,7 @@ export const StickyCTA = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-center sm:text-left">
-            <p className="font-bold text-lg">Limited Time: ₹499 Only!</p>
+            <p className="font-bold text-lg">Limited Time: ₹199 Only!</p>
             <p className="text-sm text-muted-foreground">10,000+ Worksheets • Lifetime Access</p>
           </div>
           <div className="flex flex-col items-center gap-2">
@@ -35,7 +35,7 @@ export const StickyCTA = () => {
               asChild
             >
               <a href="https://superprofile.bio/vp/10k-kids-worksheet-bundle" target="_blank" rel="noopener noreferrer">
-                ✅ Get Lifetime Access @ ₹499 Now
+                ✅ Get Lifetime Access @ ₹199 Now
               </a>
             </Button>
             <p className="text-xs text-red-600 dark:text-red-500 font-semibold">🔥 Only 200 copies left at this price!</p>

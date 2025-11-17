@@ -6,7 +6,7 @@ import { Check, X, Shield, Lock, RefreshCw } from "lucide-react";
 const comparisonFeatures = [
   { feature: "Worksheets Count", others: "200–500", brightSprout: "10,000+" },
   { feature: "Updates", others: "No", brightSprout: "Lifetime Free" },
-  { feature: "Price", others: "₹1,999+", brightSprout: "₹499 One-Time" },
+  { feature: "Price", others: "₹1,999+", brightSprout: "₹199 One-Time" },
   { feature: "Skill Variety", others: "Limited", brightSprout: "200+ Categories" },
   { feature: "Designed by Educators", others: "No", brightSprout: "Yes" },
   { feature: "Screen-Free", others: "Mixed", brightSprout: "100% Screen-Free" }
@@ -23,7 +23,7 @@ export const Pricing = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Get Everything for Just{" "}
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              ₹499
+              ₹199
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -41,8 +41,8 @@ export const Pricing = () => {
               <h3 className="text-2xl font-bold">Bright Sprout Mega Bundle</h3>
               <div className="space-y-2">
                 <div className="flex items-baseline justify-center gap-3">
-                  <span className="text-5xl md:text-6xl font-bold text-primary">₹499</span>
-                  <span className="text-2xl text-muted-foreground line-through">₹2,999</span>
+                  <span className="text-5xl md:text-6xl font-bold text-primary">₹199</span>
+                  <span className="text-2xl text-muted-foreground line-through">₹1,999</span>
                 </div>
                 <p className="text-muted-foreground">One-time payment • Lifetime access</p>
               </div>
@@ -77,7 +77,7 @@ export const Pricing = () => {
                 asChild
               >
                 <a href="https://superprofile.bio/vp/10k-kids-worksheet-bundle" target="_blank" rel="noopener noreferrer">
-                  🔥 Get Lifetime Access @ ₹499 Now
+                  🔥 Get Lifetime Access @ ₹199 Now
                 </a>
               </Button>
 
