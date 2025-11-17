@@ -100,11 +100,11 @@ export const SalesNotification = () => {
 
   return (
     <div
-      className={`fixed left-4 z-40 transition-all duration-300 ease-in-out ${
+      className={`fixed right-4 z-40 transition-all duration-300 ease-in-out ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
       }`}
       style={{
-        bottom: 'calc(80px + 1rem)', // Position above sticky bar (adjust based on sticky bar height)
+        bottom: 'calc(90px + 1rem)', // Position above sticky bar with extra 10px
       }}
     >
       <div className="bg-card border border-border rounded-xl shadow-lg px-4 py-3 max-w-sm backdrop-blur-sm">
