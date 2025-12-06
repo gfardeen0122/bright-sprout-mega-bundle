@@ -116,7 +116,7 @@ export const SalesNotification = () => {
         }}
       >
         <div className="flex items-center gap-2 md:gap-3">
-          <span className="flex-shrink-0" style={{ fontSize: window.innerWidth <= 600 ? '16px' : '20px', marginRight: window.innerWidth <= 600 ? '8px' : undefined }}>🟢</span>
+          <span className="flex-shrink-0" style={{ fontSize: window.innerWidth <= 600 ? '16px' : '20px', marginRight: window.innerWidth <= 600 ? '8px' : undefined }}>🛒</span>
           <p className="text-foreground" style={{ fontSize: window.innerWidth <= 600 ? '14px' : '14px' }}>
             <span className="font-medium">{currentNotification.name}</span> from{" "}
             <span className="font-medium">{currentNotification.city}</span> bought this{" "}
